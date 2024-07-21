@@ -1,0 +1,14 @@
+GET
+<interface xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+  <name>GigabitEthernet1</name>
+  <description>RESTCONF Modified Interface</description>
+  <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+  <enabled>true</enabled>
+  <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <address>
+      <ip>172.20.0.116</ip>
+      <netmask>255.255.255.0</netmask>
+    </address>
+  </ipv4>
+</interface>
+PUT
